@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "commandsbutbetter",
+  "version": "${version}",
+
+  "name": "Commands But Better",
+  "description": "This mod improoves upon the vanilla command system, so that datapack developers can see what minecraft could be",
+  "authors": [
+    "GeradesoLukas"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/commandsbutbetter/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.geradesolukas.commandsbutbetter.CommandsButBetter"
+    ],
+    "client": [
+      "net.geradesolukas.commandsbutbetter.CommandsButBetterClient"
+    ]
+  },
+  "mixins": [
+    "commandsbutbetter.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
