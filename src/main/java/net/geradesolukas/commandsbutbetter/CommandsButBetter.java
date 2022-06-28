@@ -1,6 +1,7 @@
 package net.geradesolukas.commandsbutbetter;
 
 import net.fabricmc.api.ModInitializer;
+import net.geradesolukas.commandsbutbetter.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +11,6 @@ public class CommandsButBetter implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModRegistries.registerModStuffs();
 	}
 }

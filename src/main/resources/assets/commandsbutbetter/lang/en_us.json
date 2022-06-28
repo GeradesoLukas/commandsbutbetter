@@ -1,0 +1,10 @@
+{
+  "commands.mount.self": "You can't mount yourself",
+  "commands.mount.hasrider": "%s already has a passenger",
+  "commands.mount.hasvehicle": "%s already has a vehicle",
+  "commands.mount.hasriderandvehicle": "The entites can't be mounted together",
+  "commands.mount.cantswap": "Can't swap passenger and vehicle",
+  "commands.mount.already": "The entities are already mounted that way",
+  "commands.mount.success.started": "%s started riding %s"
+
+}
