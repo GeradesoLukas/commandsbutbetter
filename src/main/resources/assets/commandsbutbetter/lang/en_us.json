@@ -2,9 +2,12 @@
   "commands.mount.self": "You can't mount yourself",
   "commands.mount.hasrider": "%s already has a passenger",
   "commands.mount.hasvehicle": "%s already has a vehicle",
-  "commands.mount.hasriderandvehicle": "The entites can't be mounted together",
+  "commands.mount.hasriderandvehicle": "These entites can't be mounted together",
   "commands.mount.cantswap": "Can't swap passenger and vehicle",
-  "commands.mount.already": "The entities are already mounted that way",
-  "commands.mount.success.started": "%s started riding %s"
-
+  "commands.mount.already": "These entities are already mounted that way",
+  "commands.mount.success.started": "%s started riding %s",
+  "commands.mount.success.stopped.self": "%s stopped riding",
+  "commands.mount.success.stopped.passenger": "%s got their passenger dismounted",
+  "commands.mount.success.stopped.nopassenger": "The Entity has no Passengers",
+  "commands.mount.success.stopped.novehicle": "The Entity is not riding anything"
 }
