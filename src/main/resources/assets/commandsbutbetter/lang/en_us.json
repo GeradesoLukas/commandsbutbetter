@@ -9,5 +9,8 @@
   "commands.mount.success.stopped.self": "%s stopped riding",
   "commands.mount.success.stopped.passenger": "%s got their passenger dismounted",
   "commands.mount.success.stopped.nopassenger": "The Entity has no Passengers",
-  "commands.mount.success.stopped.novehicle": "The Entity is not riding anything"
+  "commands.mount.success.stopped.novehicle": "The Entity is not riding anything",
+
+
+  "commands.playerdata.success": "%s has their data of \"%s\" changed to %s"
 }
